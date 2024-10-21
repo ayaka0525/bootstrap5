@@ -91,7 +91,9 @@ section {
     .hero {
         width: 100%;
         background-image: url(./img/main-500.png); /* モバイルでの固定背景問題を回避 */
-        background-size: cover;
+        background-size: contain;
+        background-attachment: scroll;
+        background-position:center;
     }
 }
 
